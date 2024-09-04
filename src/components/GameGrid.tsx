@@ -44,7 +44,7 @@ const GameGrid = () => {
 
           {data?.pages.map((page) => page.results.map((game) => 
             <GameCardContainer key={game.id}>
-              <GameCard   game={game}/>
+              <GameCard  game={game}/>
             </GameCardContainer>
           ))}
 

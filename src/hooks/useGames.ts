@@ -8,7 +8,9 @@ let apiClient = new APIClient<Game>(`/games`)
 export type Game = {
   id: number,
   name: string,
+  slug: string,
   background_image: string,
+  description_raw: string,
   parent_platforms: { platform: Platform }[],
   metacritic: number,
   rating_top: number, // 1 | 2 | 3 | 4 | 5

@@ -8,7 +8,7 @@ import ErrorPage from './pages/ErrorPage'
     createRoutesFromElements(
       <Route path="/" element={<NavLayout/> } errorElement={<ErrorPage/>}>
         <Route index element={<HomePage/>}/>
-        <Route path="/:id" element={<GameDetail/>}/>
+        <Route path="/games/:slug" element={<GameDetail/>}/>
       </Route>
     )
   )
