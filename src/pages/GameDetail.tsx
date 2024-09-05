@@ -8,15 +8,15 @@ const GameDetail = () => {
 
   if (isLoading) return <Spinner />
 
-  if (error || !game) throw error
+  if (error) throw error
 
   return (
     <>
       <Heading>
-        {game.name}
+        {game?.name}
       </Heading>
       <Text>
-        {game.description_raw}
+        {game?.description_raw}
       </Text>
     </>
   )

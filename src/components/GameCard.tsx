@@ -4,14 +4,13 @@ import {
   Image,
   Heading,
   HStack,
-  ScaleFade,
 } from "@chakra-ui/react";
-import { Game } from "../hooks/useGames";
 import PlatformIconList from "./PlatformIconList";
 import Rating from "./Rating";
 import getCroppedImageUrl from "../services/image-url";
 import Emoji from "./Emoji";
 import { Link } from "react-router-dom";
+import { Game } from "../entities/Game";
 
 type Props = {
   game: Game;

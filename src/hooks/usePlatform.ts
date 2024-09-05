@@ -1,4 +1,5 @@
-import usePlatforms, { Platform } from "./usePlatforms"
+import { Platform } from "../entities/Platform"
+import usePlatforms from "./usePlatforms"
 
 const usePlatform = (id: number | undefined): Platform | undefined => {
   const {data: platformsData} = usePlatforms()
