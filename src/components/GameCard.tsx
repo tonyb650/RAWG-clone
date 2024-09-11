@@ -28,6 +28,7 @@ const GameCard = ({ game }: Props) => {
         <Heading fontSize="2xl">
           <Link to={`/games/${game.slug}`}>{game.name}</Link>
           <Emoji rating={game.rating_top} />
+          
         </Heading>
       </CardBody>
     </Card>
