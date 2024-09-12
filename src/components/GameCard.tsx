@@ -10,7 +10,7 @@ import Rating from "./Rating";
 import getCroppedImageUrl from "../services/image-url";
 import Emoji from "./Emoji";
 import { Link } from "react-router-dom";
-import { Game } from "../entities/Game";
+import Game from "../entities/Game";
 
 type Props = {
   game: Game;
