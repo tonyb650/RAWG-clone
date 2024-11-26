@@ -7,6 +7,10 @@ Notable features:
 * Chakra library is used for styling.
 
 
-### Screenshot
+### Screenshots
 
+**Home Page**\
 ![alt text](image.png)
+
+**Game Detail Page**\
+![alt text](image-1.png)
